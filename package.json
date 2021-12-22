@@ -2,13 +2,10 @@
   "name": "nodejs-mongodb-api-tutorials",
   "version": "1.0.0",
   "description": "First NodeJS and MongoDB API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "serve": "node serve.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://git.heroku.com/nodejs-mongodb-api-tutorials.git"
   },
   "keywords": [
     "nodejs",
@@ -18,10 +15,6 @@
   ],
   "author": "quanintel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://git.heroku.com/nodejs-mongodb-api-tutorials.git/issues"
-  },
-  "homepage": "https://git.heroku.com/nodejs-mongodb-api-tutorials.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
